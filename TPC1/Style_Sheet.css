@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(226, 224, 224);
+}
+
+figcaption{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+  }
+
+#Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#Active{
+    background-color: rgb(93, 96, 99);
+}
+
+.Nav_Bar_Text{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Ex_Galochas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+.NavigationBar1{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.NavigationBar2{
+    float: left;
+    padding: 15px 30px ;
+}
+
+.NavigationBar2:hover{
+    background-color:black;
+}
+
+.Texto{
+    color:#333;
+    font-family: fantasy;
+}
+
+.Links{
+    color:#333;
+    font-family: fantasy;
+    font-size: large;
+}
+
+.Carousel{
+    position: relative;
+    height: 600px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.Carousel_Container{
+    background: grey;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.Carousel_Slides{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 350ms ease-in;
+}
+
+.Slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Slide_Image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.Carousel_Button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+}
+
+.Button_Image{
+    width: 30px;
+}
+
+.Right_Button{
+    right: -25px;
+    cursor: pointer;
+}
+
+.Left_Button{
+    left: -25px;
+    cursor: pointer;
+}
+
+.Is_Hidden{
+    display: none;
+}
