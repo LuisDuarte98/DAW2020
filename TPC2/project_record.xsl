@@ -64,10 +64,10 @@
                 </div>
                 <div class="Container">
                     <h2><b>DELIVERABLES: </b></h2>
-                    <xsl:for-each select="deriverables">
+                    <xsl:for-each select="deliverables">
                         <xsl:for-each select="link">
                             <ul>
-                                <li><b>GIT: </b><a href="{@link}"> <xsl:value-of select="link"/></a></li>
+                                <li><a href="{@link}"> <xsl:value-of select="."/></a></li>
                             </ul>
                         </xsl:for-each>
                     </xsl:for-each>

@@ -23,6 +23,8 @@
         <text>Decidi então, por último, experimentar os básicos de XSLT para atingir a representação que queria para o meu registo de projeto escrito em XML.</text>
     </abstract>
     <deliverables>
-        <link link=""></link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC2/project_record.dtd">Ficheiro DTD</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC2/project_record.xml">Ficheiro XML</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC2/project_record.xsl">Ficheiro XSL</link>
     </deliverables>
 </project_record>
