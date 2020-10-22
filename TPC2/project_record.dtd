@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Main element -->
+<!ELEMENT project_record (meta_info, workteam, abstract, deliverables)>
+
+<!-- Meta information about the project developed -->
+<!ELEMENT meta_info (keyname, title, begin_date, end_date, supervisor)>
+<!ELEMENT keyname (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT begin_date (#PCDATA)>
+<!ELEMENT end_date (#PCDATA)>
+<!ELEMENT supervisor (#PCDATA)>
+<!ATTLIST supervisor
+            link CDATA #FIXED "http://www4.di.uminho.pt/~jcr/">
+
+<!-- List of the team members -->
+<!ELEMENT workteam (team_element)+>
+<!ELEMENT team_element (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST team_element
+            id CDATA #REQUIRED>
+<!ATTLIST team_element 
+            email_address CDATA #IMPLIED>
+<!ATTLIST team_element 
+            git CDATA #IMPLIED>
+
+<!-- Abstract of the project -->
+<!ELEMENT abstract (text)+>
+<!ELEMENT text (#PCDATA|bold|italic|underlined|ref)*>
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT italic (#PCDATA) >
+<!ELEMENT underlined (#PCDATA) >
+<!ELEMENT ref (#PCDATA) >
+<!ATTLIST ref
+            link CDATA #REQUIRED>
+            
+<!-- Deliverables of the project -->
+<!ELEMENT deliverables (link)*>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+            link CDATA #REQUIRED>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="project_record.xsl"?>
+<!DOCTYPE project_record SYSTEM "project_record.dtd">
+
+<project_record>
+    <meta_info>
+        <keyname>TPC2 DAW</keyname>
+        <title>Proposta de modelação de registos de projetos</title>
+        <begin_date>21/10/2020</begin_date>
+        <end_date>28/10/2020</end_date>
+        <supervisor link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta_info>
+    <workteam>
+        <team_element id="a81931" git= "https://github.com/LuisDuarte98">
+            <name>Luís Duarte</name>
+        </team_element>
+    </workteam>
+    <abstract>
+        <text>Para segundo trabalho para casa foi pedido que fosse criado um "Definição de Tipo de Documento", mais conhecido como "DTD", onde fosse especificado uma estrutura de um ficheiro XML válida para a representação de um registo de projeto.</text>
+        <text>Face ao desafio proposto comecei por modelar a estrutura que pretendia representar, implementando-a depois num ficheiro DTD.</text>
+        <text>De seguida, usei aquilo que implementei para gerar a estrutura base deste ficheiro XML, e posteriormente, acrescentei ao ficheiro a informação necessária.</text>
+        <text>Não agradado com a representação por defeito apresentada pelo browser face a um ficheiro XML, decidi investigar como poderia formatar este tipo de ficheiros não recorendo ao CSS diretamente. Descobri uma linguagem interessante, denominada "XSLT", que permite transformar um ficheiro XML num ficheiro HTML com relativa facilidade.</text>
+        <text>Decidi então, por último, experimentar os básicos de XSLT para atingir a representação que queria para o meu registo de projeto escrito em XML.</text>
+    </abstract>
+    <deliverables>
+        <link link=""></link>
+    </deliverables>
+</project_record>
