@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="project_record.xsl"?>
+
+<project_record>
+    <meta_info>
+        <keyname>TPC3 DAW</keyname>
+        <title>Realização de um XSLT para mapear um documento de arqueosítios</title>
+        <begin_date>28/10/2020</begin_date>
+        <end_date>04/11/2020</end_date>
+        <supervisor link="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta_info>
+    <workteam>
+        <team_element id="a81931" git= "https://github.com/LuisDuarte98">
+            <name>Luís Duarte</name>
+        </team_element>
+    </workteam>
+    <abstract>
+        <text>Para o terceiro trabalho para casa foi pedido que fosse criado um DTD que represente a estrutura de um ficheiro XML de arqueosítios previamente fornecido, e que de seguida fosse criado um XSLT para converter o documento num website funcional. </text>
+        <text>Face ao desafio proposto, comecei por modelar a estrutura do documento "arq.xml", recorrendo a expressões XLPath para perceber rapidamente a estrutura do documento, implementando-a depois num ficheiro DTD. De forma a comprovar a correção desta tarefa validei com sucesso o documento XML fornecido.</text>
+        <text>Posteriormente, realizei, com aquilo que aprendi na aula, um documento XSLT que gerasse com sucesso o website pretendido.</text>
+        <text>Já com os objetivos principais cumpridos, realizei este project record para servir de documentação</text>
+        <text>Por fim, decide criar um novo XSLT para estilizar este tipo de ficheiros XML (Project_Record´s). Já tinha criado algo semelhante no último trabalho de casa, pois tinha pesquisado na internet esta ferramenta. No entanto, depois de assistir à aula, percebi que a forma como tinha "atacado" anteriormente esta temática, estava longe de ser perfeita, e por isso decidi fazer um novo.</text>
+    </abstract>
+    <deliverables>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/arq/arq.xml">Ficheiro XML de arqueosítios</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/arq/arq.dtd">Ficheiro DTD de arqueosítios</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/arq/arq.xsl">Ficheiro XSL de arqueosítios</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/arq/arq_website">WebSite de arqueosítios</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/project_record.xml">Ficheiro XML do project record</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/project_record.xsl">Ficheiro XSL do project record</link>
+        <link link="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC3/project_record.html">Ficheiro HTML do project record</link>
+    </deliverables>
+</project_record>

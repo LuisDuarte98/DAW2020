@@ -1,0 +1,39 @@
+<== Contagem/Análise dos elementos usando expressões XPath sobre o ficheiro arq.xml: ==>
+
+-> ARQELEM : 122 elementos (/ARQSITS/ARQELEM)
+	-> TIPO : 122 elementos (/ARQSITS/ARQELEM/TIPO)
+	-> IDENTI : 122 elementos (/ARQSITS/ARQELEM/IDENTI)
+	-> IMAGEM : 1 elemento , localizado em /ARQSITS[1]/ARQELEM[1]/IMAGEM[1] (/ARQSITS/ARQELEM/IMAGEM)
+	-> DESCRI : 122 elementos (/ARQSITS/ARQELEM/DESCRI)
+	-> CRONO : 112 elementos (/ARQSITS/ARQELEM/CRONO) => Por exemplo, 1ª elemento ARQELEM não possui este sub-elemento
+	-> LUGAR : 122 elementos (/ARQSITS/ARQELEM/LUGAR)
+	-> FREGUE : 122 elementos (/ARQSITS/ARQELEM/FREGUE)
+	-> CONCEL : 122 elementos (/ARQSITS/ARQELEM/CONCEL)
+	-> CODADM : 116 elementos (/ARQSITS/ARQELEM/CODADM) => Por exemplo, último  elemento ARQELEM não possuieste sub-elemento
+	-> LATITU : 118 elementos (/ARQSITS/ARQELEM/LATITU) => Por exemplo, 37ª elemento ARQELEM não possui este sub-elemento
+	-> LONGIT : 118 elementos (/ARQSITS/ARQELEM/LONGIT) => Por exemplo, 37ª elemento ARQELEM não possui este sub-elemento
+	-> ALTITU : 118 elementos (/ARQSITS/ARQELEM/ALTITU) => Por exemplo, 18ª elemento ARQELEM não possui este sub-elemento
+	-> ACESSO : 109 elementos (/ARQSITS/ARQELEM/ACESSO) => Por exemplo, 15ª elemento ARQELEM não possui este sub-elemento
+	-> QUADRO : 61 elementos (/ARQSITS/ARQELEM/QUADRO) => Por exemplo, 30ª elemento ARQELEM não possui este sub-elemento
+	-> TRAARQ : 37 elementos (/ARQSITS/ARQELEM/TRAARQ) => Por exemplo, 1ª elemento ARQELEM não possui este sub-elemento
+	-> DESARQ : 122 elementos (/ARQSITS/ARQELEM/DESARQ)
+	-> DEPOSI : 61 elementos (/ARQSITS/ARQELEM/DEPOSI) => Por exemplo, 1ª elemento ARQELEM não possui este sub-elemento
+	-> INTERE : 61 elementos (/ARQSITS/ARQELEM/INTERE) => Por exemplo, 1ª elemento ARQELEM não possui este sub-elemento
+	-> INTERP : 98 elementos (/ARQSITS/ARQELEM/INTERP) => Por exemplo, 50ª elemento ARQELEM não possui este sub-elemento
+	-> BIBLIO : 296 elementos (/ARQSITS/ARQELEM/BIBLIO) => Para saber se biblio é obrigatório = (/*/ARQELEM/BIBLIO[1]) : 109 elementos Por exemplo, 50ª elemento ARQELEM não possui este sub-elemento
+	-> AUTOR : 122 elementos (/ARQSITS/ARQELEM/AUTOR)
+	-> DATA : 122 elementos 
+
+-> Lista de elementos que podem possuir elemento LIGA (/*/*/*/LIGA)
+	-> DESCRI
+	-> LUGAR 
+	-> FREGUE 
+	-> QUADRO
+	-> TRAARQ 
+	-> DESARQ
+	-> INTERE
+	-> INTERP
+	-> ACESSO
+	-> BIBLIO
+
+NOTA : Este tipo de análise incial ao documento permite perceber que elementos são unicos e obrigatorios em cada 		ARQELEM, aqueles que não são obrigatórios e ainda os que podem aparecer mais que uma vez num único ARQELEM
