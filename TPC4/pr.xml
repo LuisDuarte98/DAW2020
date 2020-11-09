@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <key>Project record tpc4</key>
+        <title>Projeto de desenvolvimento de um servidor simples em node</title>
+        <bdate>04/11/2020</bdate>
+        <edate>11/11/2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a81931">
+            <name>Luís Duarte</name>
+            <email>luisduarte9877@gmail.com</email>
+            <url>https://github.com/LuisDuarte98</url>
+        </member>
+    </team>
+    <abstract>
+        <p>No trabalho de casa número 4 foi pedido que fosse criado um servidor <b>node</b> capaz de aceitar e responder a pedidos para o website de arqueosítios.</p>
+        <p>Primeiramente, criei um novo <b>xsl</b> de forma a gerar o website com um formato que permitisse criar um servidor capaz de aceitar pedidos através de urls do estilo: "localhost:7777/arqs/nome_ficheiro".</p>
+        <p>De seguida criei um servidor <b>node</b> que filtrasse os pedidos, e caso estes correspondam ao esperado, respondesse ao utilizador com a página correta.</p>
+        <p>Por último, usei o <b>dts</b> do project record feito na aula para gerar um <b>xml</b> para documentar o <i>tpc</i>, criando ainda um novo <b>xsl</b> capaz de transformar ficheiros válidos segundo o novo <b>dtd</b>.</p>
+    </abstract>
+    <deliverables>
+        <link url=""></link>
+    </deliverables>
+</pr>
