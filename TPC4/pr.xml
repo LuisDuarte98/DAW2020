@@ -16,12 +16,19 @@
         </member>
     </team>
     <abstract>
-        <p>No trabalho de casa número 4 foi pedido que fosse criado um servidor <b>node</b> capaz de aceitar e responder a pedidos para o website de arqueosítios.</p>
+        <p>No trabalho de casa número 4 foi pedido que fosse criado um servidor <b>node</b> capaz de aceitar e responder a pedidos para o website de arqueossítios.</p>
         <p>Primeiramente, criei um novo <b>xsl</b> de forma a gerar o website com um formato que permitisse criar um servidor capaz de aceitar pedidos através de urls do estilo: "localhost:7777/arqs/nome_ficheiro".</p>
         <p>De seguida criei um servidor <b>node</b> que filtrasse os pedidos, e caso estes correspondam ao esperado, respondesse ao utilizador com a página correta.</p>
         <p>Por último, usei o <b>dts</b> do project record feito na aula para gerar um <b>xml</b> para documentar o <i>tpc</i>, criando ainda um novo <b>xsl</b> capaz de transformar ficheiros válidos segundo o novo <b>dtd</b>.</p>
     </abstract>
     <deliverables>
-        <link url=""></link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/pr.dtd">DTD do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/pr.html">HTML do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/pr.xml">XML do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/pr.xsl">XSL do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/arq/arq.xml">XMl dos arqueossítios</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/arq/arq.xsl">XSL dos arqueossítios</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC4/arq/arq.js">Servidor node dos arqueossítios</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/tree/master/TPC4/arq/arq_website">Website dos arqueossítios</link>
     </deliverables>
 </pr>

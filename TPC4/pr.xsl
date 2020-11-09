@@ -87,7 +87,7 @@
     
     <xsl:template match="link" mode="dl">
         <li>
-            <a href="{link/@url}"> <xsl:value-of select="."/> </a>
+            <a href="{@url}"> <xsl:value-of select="."/> </a>
         </li>
     </xsl:template>
     
