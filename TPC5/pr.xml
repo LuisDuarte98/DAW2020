@@ -17,14 +17,14 @@
     <abstract>
         <p>O trabalho de casa número 5 consistia em criar um servidor <b>node</b> capaz de comunicar via http com um servidor <b>json-server</b>.</p>
         <p>Primeiramente, inicializei o servidor <b>json-server</b> para que recebesse pedidos http e fosse capaz de ler o ficheiro <b>json</b> da escola de música e respondesse com o contéudo correspondente.</p>
-        <p>De seguida criei um servidor <b>node</b> que filtrasse os pedidos, e caso estes correspondam ao esperado, realiza-se pedidos ao <b>json-server</b> para obter o contéudo esperado. Para esta interligação foi usada a biblioteca<b>axios</b>.</p>
+        <p>De seguida criei um servidor <b>node</b> que filtrasse os pedidos, e caso estes correspondam ao esperado, realiza pedidos ao <b>json-server</b> para obter o contéudo esperado. Para esta interligação foi usada a biblioteca <b>axios</b>.</p>
         <p>Por último, criei este project record de forma a documentar o processo.</p>
     </abstract>
     <deliverables>
         <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/pr.html">HTML do project record</link>
         <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/pr.xml">XML do project record</link>
         <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/pr.xsl">XSL do project record</link>
-        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/">Servidor node</link>
-        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/">Json da escola de música</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/servidor.js">Servidor node</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/escola_musica.json">JSON da escola de música</link>
     </deliverables>
 </pr>
