@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Project record tpc5</key>
+        <title>Projeto de desenvolvimento de um servidor para um escola de música em node</title>
+        <bdate>11/11/2020</bdate>
+        <edate>18/11/2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a81931">
+            <name>Luís Duarte</name>
+            <email>luisduarte9877@gmail.com</email>
+            <url>https://github.com/LuisDuarte98</url>
+        </member>
+    </team>
+    <abstract>
+        <p>O trabalho de casa número 5 consistia em criar um servidor <b>node</b> capaz de comunicar via http com um servidor <b>json-server</b>.</p>
+        <p>Primeiramente, inicializei o servidor <b>json-server</b> para que recebesse pedidos http e fosse capaz de ler o ficheiro <b>json</b> da escola de música e respondesse com o contéudo correspondente.</p>
+        <p>De seguida criei um servidor <b>node</b> que filtrasse os pedidos, e caso estes correspondam ao esperado, realiza-se pedidos ao <b>json-server</b> para obter o contéudo esperado. Para esta interligação foi usada a biblioteca<b>axios</b>.</p>
+        <p>Por último, criei este project record de forma a documentar o processo.</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/pr.html">HTML do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/pr.xml">XML do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/pr.xsl">XSL do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/">Servidor node</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/">Json da escola de música</link>
+    </deliverables>
+</pr>
