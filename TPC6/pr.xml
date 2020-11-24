@@ -23,8 +23,10 @@
 
     </abstract>
     <deliverables>
-        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC6/pr.html">XML do project record</link>
-        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/servidor.js">Servidor node</link>
-        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC5/servidor_escola_musica/escola_musica.json">JSON da escola de música</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC6/pr.xml">XML do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC6/to-do_WebApp/to-do_db.json">JSON das tarefas</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC6/to-do_WebApp/create_pages.js">Módulo JavaScript para criação de página html</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC6/to-do_WebApp/static.js">Módulo para disponibilização de recursos estáticos</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC6/to-do_WebApp/server.js">Servidor node</link>
     </deliverables>
 </pr>
