@@ -1,0 +1,67 @@
+{
+  "tarefas": [
+    {
+      "id": "tpcDAW",
+      "descricao": "                        Realizar um web_server para uma to-do List em node\r\n                    ",
+      "data_inicial": "20/11/2020",
+      "data_final": "25/11/2020",
+      "status": "Pendente"
+    },
+    {
+      "id": "tpcABD",
+      "descricao": "Realizar um programa de monitorização do carregamento de dados numa BD",
+      "data_inicial": "27/11/2020",
+      "data_final": "30/11/2020",
+      "status": "Pendente"
+    },
+    {
+      "id": "Cinema",
+      "descricao": "Ir ao cinema com a namorada",
+      "data_inicial": "27/11/2020",
+      "data_final": "27/11/2020",
+      "status": "Pendente"
+    },
+    {
+      "id": "tpcBio",
+      "descricao": "Realizar uma base dados MySQL para guardar informação do covid",
+      "data_inicial": "20/11/2020",
+      "data_final": "23/11/2020",
+      "status": "Em execução"
+    },
+    {
+      "id": "passearCao",
+      "descricao": "                        Passear o bobby varias vezes ao dia, tem sido um bom menino\r\n                    \r\n                    ",
+      "data_inicial": "22/11/2020",
+      "data_final": "23/12/2020",
+      "status": "Em execução"
+    },
+    {
+      "id": "estudar",
+      "descricao": "Estudar materia em atraso",
+      "data_inicial": "22/11/2020",
+      "data_final": "30/11/2020",
+      "status": "Em execução"
+    },
+    {
+      "id": "estudarABD",
+      "descricao": "Estudar matéria de administração de base dados",
+      "data_inicial": "19/11/2020",
+      "data_final": "21/11/2020",
+      "status": "Cancelado"
+    },
+    {
+      "id": "correr",
+      "descricao": "Correr pelo menos 2km",
+      "data_inicial": "19/11/2020",
+      "data_final": "19/11/2020",
+      "status": "Concluido"
+    },
+    {
+      "id": "post",
+      "descricao": "Tratar dos pedidos de post do tpc de daw",
+      "data_inicial": "21/11/2020",
+      "data_final": "21/11/2020",
+      "status": "Concluido"
+    }
+  ]
+}
