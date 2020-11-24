@@ -18,10 +18,10 @@ function criaAddTarefa(){
                 </textarea>
                 </br>
                 Data início: &nbsp&nbsp&nbsp&nbsp
-                <input type="text" name="data_inicial" maxlength="30"/>
+                <input type="date" name="data_inicial" maxlength="30"/>
                 </br>
                 Data fim: &nbsp&nbsp&nbsp
-                <input type="text" name="data_final" maxlength="30"/>
+                <input type="date" name="data_final" maxlength="30"/>
                 </br>
                 Status atual: </br>
                 <select name="status">
@@ -45,6 +45,7 @@ function criaPagTarefas(tarefas){
     <html>
     <head>
         <title>To-Do List</title>
+        <link rel="icon" type="image/png" href="/favicon.png"/>
         <meta charset="utf-8"/>
         <style>
             h1 {
@@ -169,9 +170,36 @@ function criaPagTarefas(tarefas){
 
 // Geração da pagina de uma tarefa especifica
 function criaPagTarefa(tarefa){
+    switch(tarefa.status){
+        case "Pendente":
+            pendente = "selected"
+            execucao = ""
+            cancelado = ""
+            concluido = ""
+            break   
+        case "Em execução":
+            pendente = ""
+            execucao = "selected"
+            cancelado = ""
+            concluido = ""
+            break
+        case "Cancelado":
+            pendente = ""
+            execucao = ""
+            cancelado = "selected"
+            concluido = ""
+            break
+        case "Concluido":
+            pendente = ""
+            execucao = ""
+            cancelado = ""
+            concluido = "selected"
+            break
+        }
     return `
     <head>
-        <title>Tarefa ${tarefa.id}</title> 
+        <title>Tarefa ${tarefa.id}</title>
+        <link rel="icon" type="image/png" href="/favicon.png"/> 
     </head>
     <body>
         <form method="POST" action="/tarefas/${tarefa.id}?put">
@@ -184,18 +212,18 @@ function criaPagTarefa(tarefa){
                         ${tarefa.descricao}
                     </textarea>
                     </br>
-                    Data início: &nbsp&nbsp&nbsp&nbsp
-                    <input type="text" name="data_inicial" maxlength="30" value="${tarefa.data_inicial}"/>
+                    Data início: &nbsp
+                    <input type="date" name="data_inicial" maxlength="30" value="${tarefa.data_inicial}"/>
                     </br>
                     Data fim: &nbsp&nbsp&nbsp
-                    <input type="text" name="data_final" maxlength="30" value="${tarefa.data_final}""/>
+                    <input type="date" name="data_final" maxlength="30" value="${tarefa.data_final}""/>
                     </br>
                     Status atual: </br>
-                    <select name="status" value="${tarefa.status}">
-                        <option>Pendente</option>
-                        <option>Em execução</option>
-                        <option>Cancelado</option>
-                        <option>Concluido</option>
+                    <select name="status">
+                        <option ` + pendente + `>Pendente</option>
+                        <option ` + execucao + `>Em execução</option>
+                        <option ` + cancelado + `>Cancelado</option>
+                        <option ` + concluido + `>Concluido</option>
                     </select>
                     <input type="submit" value="Enviar" />
                     </br>
@@ -214,6 +242,7 @@ function criaPagTarefaConfirm(tarefa){
     <html>
         <head>
             <title>Tarefa inserida</title>
+            <link rel="icon" type="image/png" href="/favicon.png"/> 
             <meta charset="utf-8"/>
             <style>
                 ul{

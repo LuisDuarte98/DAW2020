@@ -6,7 +6,8 @@ var fs = require('fs')
 
 
 function recursoEstatico(request){
-    return /\/favicon.png$/.test(request.url) 
+    return /\/favicon.png$/.test(request.url)
+
                 
 }
 
