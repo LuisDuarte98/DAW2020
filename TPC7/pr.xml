@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>Project record tpc7</key>
+        <title>Projeto de desenvolvimento de uma página web que gere os alunos de DAW</title>
+        <bdate>25/11/2020</bdate>
+        <edate>02/12/2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="a81931">
+            <name>Luís Duarte</name>
+            <email>luisduarte9877@gmail.com</email>
+            <url>https://github.com/LuisDuarte98</url>
+        </member>
+    </team>
+    <abstract>
+        <p>O trabalho de casa número 7 consistia em criar uma página web capaz de gerir os alunos de DAW e os tpcs realizados por estes.</p>
+        <p>Primeiramente, inicializei um novo projeto usando a ferramenta <b>Express</b> e o <b>Node</b>. Esta primeira ferramenta permite criar uma WebAPI de forma fácil e que segue o padrão MVC. </p>
+        <p>De seguida, criei a ligação a uma base dados em Mongo usando o <b>Mongoose</b>, criando ainda as operações de consulta, inserção, edição e remoção necessárias .</p>
+        <p>Por último desenvolvi, usando <b>Pug</b>, as views necessárias, e codifiquei as rotas para servir cada um dos pedidos http suportados</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC7/pr.xml">XML do project record</link>
+        <link url="https://github.com/LuisDuarte98/DAW2020/blob/master/TPC7/studentsAPP">WebAPP</link>
+    </deliverables>
+</pr>

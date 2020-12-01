@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    header.w3-container.w3-teal
+        h3.w3-left Inserção de um novo aluno:
+    div(class="w3-container.w3-teal")
+        form(class= "w3-container", action=`/students/edit/${student.nome}`, method="post")
+            label(for="number") Número:
+            input.w3-input.w3-border(type="text", id="number", name="number", value=`${student.numero}`)
+            br
+            label(for="name") Nome:  
+            input.w3-input.w3-border(type="text", id="name", name="name", placeholder=`${student.nome}`)
+            br
+            label(for="git") GitHub:  
+            input.w3-input.w3-border(type="text", id="git", name="git",  placeholder=`${student.git}`)
+            br
+            a Assinale tpcs feitos pelo aluno:
+            br
+            - var i = 0
+            while (i < 8)
+                label(for=`${i + 1}`)= i
+                if (student.tpc[i] == 0)   
+                    input(type="checkbox", id= `${i + 1}`, name= `${i + 1}`, class="w3-check")
+                else
+                    input(type="checkbox", id= `${i + 1}`, name= `${i + 1}`, class="w3-check", checked = "checked" )
+                - i++
+            input.w3-input.w3-border.w3-grey(type="submit", value="Editar") 
+        br
+    footer.w3-container.w3-teal
+        address 
+            a(href="/students") Voltar à página inicial
+            br
+            a Gerado por studentsAPP :: 2020-Nov, Luis Duarte 

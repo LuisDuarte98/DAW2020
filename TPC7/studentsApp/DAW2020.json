@@ -1,0 +1,74 @@
+[
+  {
+    "numero": "PG42837",
+    "nome": "Joel Carvalho",
+    "git": "https://github.com/joelccarvalho/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "PG42832",
+    "nome": "Guilherme Palumbo",
+    "git": "https://github.com/pg42832/DAW2020_42832",
+    "tpc": [1,1,1,1,1,0,0,0]
+  },
+  {
+    "numero": "PG41097",
+    "nome": "Ricardo Vaz",
+    "git": "https://github.com/RicardoVaz1/DAW2020",
+    "tpc": [1,1,0,0,0,1,0,0]
+  },
+  {
+    "numero": "A85006",
+    "nome": "Hugo Cardoso",
+    "git": "https://github.com/Abjiri/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A84464",
+    "nome": "Válter Carvalho",
+    "git": "https://github.com/wurzy/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "PG42852",
+    "nome": "Vasco Ramos",
+    "git": "https://github.com/vascoalramos/daw",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A84430",
+    "nome": "Bruno Teixeira",
+    "git": "https://github.com/Teixeira992/DAW2020.git",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A84442",
+    "nome": "Diogo Ribeiro",
+    "git": "https://github.com/ribeiropdiogo/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A83732",
+    "nome": "Gonçalo Pinto",
+    "git": "https://github.com/GRP99/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A85334",
+    "nome": "Pedro Delgado",
+    "git": "https://github.com/PedroPDelgado/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A84244",
+    "nome": "Luís Cunha",
+    "git": "https://github.com/luiscvnha/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  },
+  {
+    "numero": "A84197",
+    "nome": "João Parente",
+    "git": "https://github.com/Joao-Parente/DAW2020",
+    "tpc": [1,1,1,1,1,1,0,0]
+  }
+]

@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    .w3-card-4
+    if student != null
+      header.w3-container.w3-teal
+        h3.w3-left= `${student.numero} - ${student.nome}`
+      if student.tpc.length > 0
+        .w3-container 
+          table.w3-table-all
+            tr 
+              th TPC Number
+              th Done
+            - var counter = 1
+            each s in student.tpc
+              tr
+                td= counter
+                if s == 0
+                    td.w3-red=0
+                else 
+                    td.w3-green=1
+              - counter = counter + 1
+      else
+        .w3-container
+          p There are no tpcs ...
+    else
+        .w3-container
+            p There are no student #{error}
+    footer.w3-container.w3-teal
+        address 
+            a(href="/students") Voltar à página inicial
+            br
+            a Gerado por studentsAPP :: 2020-Nov, Luis Duarte 
